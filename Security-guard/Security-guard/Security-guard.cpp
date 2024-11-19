@@ -1,8 +1,10 @@
 ﻿#include <SDL.h>
 #include <iostream>
-#include <string>
+#include "Game.h"
 using namespace std;
-int main()
+int main(int argc, char* argv[])
 {
-    cout << "Hello World!\n";
+    Game game;
+    game.run();
+    return 0;
 }
