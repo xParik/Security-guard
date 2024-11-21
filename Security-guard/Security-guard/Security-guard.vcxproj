@@ -130,6 +130,7 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Habit.cpp" />
     <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Map.cpp" />
     <ClCompile Include="Security-guard.cpp" />
     <ClCompile Include="Security.cpp" />
     <ClCompile Include="Student.cpp" />
@@ -141,6 +142,7 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="Habit.h" />
     <ClInclude Include="Item.h" />
+    <ClInclude Include="Map.h" />
     <ClInclude Include="Security.h" />
     <ClInclude Include="Student.h" />
   </ItemGroup>

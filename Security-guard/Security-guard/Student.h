@@ -1,5 +1,6 @@
 #pragma once
 #include <SDL.h>
+#include "Map.h"
 class Student
 {
 private:
