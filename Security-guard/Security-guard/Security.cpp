@@ -1,15 +1,16 @@
 #include "Security.h"
-#include "Game.h"
-
-Security::Security(SDL_Renderer* renderer) :
-    renderer(renderer),
+#include "Game.h" 
+#include <SDL.h> 
+Security::Security(SDL_Renderer* renderer)
+    : renderer(renderer),
     characterTexture(nullptr),
-    playerRect{ 0, 0, CELL_SIZE, CELL_SIZE },
+    playerRect{ 0, 0, CELL_SIZE, CELL_SIZE }, 
     speed(4),
-    health(100) // Initialize health
+    health(100)
 {
-    loadTexture("security.bmp");
+    loadTexture("Security.bmp");
 }
+
 
 Security::~Security() {
     SDL_DestroyTexture(characterTexture);
@@ -39,6 +40,7 @@ bool Security::isAlive() {
 }
 
 void Security::Update() {
+    // Game logic updates (handle collisions, etc.)
 }
 
 void Security::Render() {

@@ -1,0 +1,246 @@
+﻿  Game.cpp
+  Habit.cpp
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(14,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+  (компиляция исходного файла "Game.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(14,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Game.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(14,10): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "Game.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(16,107): error C2061: синтаксическая ошибка: идентификатор "Map"
+  (компиляция исходного файла "Game.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(20,6): error C2365: Habit::Negativequalities: переопределение; предыдущим определением было "данные-член"
+  (компиляция исходного файла "Game.cpp")
+  C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(10,6):
+   см. объявление "Habit::Negativequalities"
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(21,3): error C2059: синтаксическая ошибка: return
+  (компиляция исходного файла "Game.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(21,27): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "Game.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(23,2): error C2628: недопустимый "Habit" с последующим "void" (возможно, отсутствует ";")
+  (компиляция исходного файла "Game.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(24,3): error C2065: Name: необъявленный идентификатор
+  (компиляция исходного файла "Game.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(27,3): error C2065: Positivequalities: необъявленный идентификатор
+  (компиляция исходного файла "Game.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(30,3): error C2065: Negativequalities: необъявленный идентификатор
+  (компиляция исходного файла "Game.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(32,1): error C2059: синтаксическая ошибка: }
+  (компиляция исходного файла "Game.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(32,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  (компиляция исходного файла "Game.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(20,6): error C2365: Habit::Negativequalities: переопределение; предыдущим определением было "данные-член"
+  (компиляция исходного файла "Habit.cpp")
+  C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(10,6):
+   см. объявление "Habit::Negativequalities"
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(21,3): error C2059: синтаксическая ошибка: return
+  (компиляция исходного файла "Habit.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(21,27): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "Habit.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(23,2): error C2628: недопустимый "Habit" с последующим "void" (возможно, отсутствует ";")
+  (компиляция исходного файла "Habit.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(24,3): error C2065: Name: необъявленный идентификатор
+  (компиляция исходного файла "Habit.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(27,3): error C2065: Positivequalities: необъявленный идентификатор
+  (компиляция исходного файла "Habit.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(30,3): error C2065: Negativequalities: необъявленный идентификатор
+  (компиляция исходного файла "Habit.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(32,1): error C2059: синтаксическая ошибка: }
+  (компиляция исходного файла "Habit.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(32,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  (компиляция исходного файла "Habit.cpp")
+  
+  Item.cpp
+  Map.cpp
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(4,6): error C2653: Map: не является именем класса или пространства имен
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(4,11): error C2270: render: модификаторы недопустимы для функций, не являющихся членами
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(5,25): error C2065: MAZE_HEIGHT: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(6,29): error C2065: MAZE_WIDTH: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(7,28): error C2065: mazeData: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(7,13): error C3861: drawCell: идентификатор не найден
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(12,6): error C2653: Map: не является именем класса или пространства имен
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(12,11): error C2270: checkCollision: модификаторы недопустимы для функций, не являющихся членами
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(17,25): error C2065: CELL_SIZE: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(18,24): error C2065: CELL_SIZE: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(19,26): error C2065: CELL_SIZE: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(20,24): error C2065: CELL_SIZE: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(21,25): error C2065: CELL_SIZE: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(22,27): error C2065: CELL_SIZE: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(23,26): error C2065: CELL_SIZE: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(24,27): error C2065: CELL_SIZE: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(26,33): error C2065: MAZE_WIDTH: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(26,71): error C2065: MAZE_HEIGHT: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(27,33): error C2065: MAZE_WIDTH: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(27,71): error C2065: MAZE_HEIGHT: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(28,33): error C2065: MAZE_WIDTH: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(28,71): error C2065: MAZE_HEIGHT: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(29,33): error C2065: MAZE_WIDTH: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(29,71): error C2065: MAZE_HEIGHT: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(35,17): error C2065: mazeData: необъявленный идентификатор
+  Security-guard.cpp
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(14,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+  (компиляция исходного файла "Security-guard.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(14,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Security-guard.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(14,10): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "Security-guard.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(16,107): error C2061: синтаксическая ошибка: идентификатор "Map"
+  (компиляция исходного файла "Security-guard.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(20,6): error C2365: Habit::Negativequalities: переопределение; предыдущим определением было "данные-член"
+  (компиляция исходного файла "Security-guard.cpp")
+  C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(10,6):
+   см. объявление "Habit::Negativequalities"
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(21,3): error C2059: синтаксическая ошибка: return
+  (компиляция исходного файла "Security-guard.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(21,27): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "Security-guard.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(23,2): error C2628: недопустимый "Habit" с последующим "void" (возможно, отсутствует ";")
+  (компиляция исходного файла "Security-guard.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(24,3): error C2065: Name: необъявленный идентификатор
+  (компиляция исходного файла "Security-guard.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(27,3): error C2065: Positivequalities: необъявленный идентификатор
+  (компиляция исходного файла "Security-guard.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(30,3): error C2065: Negativequalities: необъявленный идентификатор
+  (компиляция исходного файла "Security-guard.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(32,1): error C2059: синтаксическая ошибка: }
+  (компиляция исходного файла "Security-guard.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(32,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  (компиляция исходного файла "Security-guard.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security-guard.cpp(8,10): error C2039: "run": не является членом "Game".
+  C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Game.h(8,7):
+   см. объявление "Game"
+  
+  Security.cpp
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(14,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+  (компиляция исходного файла "Security.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(14,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Security.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(14,10): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "Security.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(16,107): error C2061: синтаксическая ошибка: идентификатор "Map"
+  (компиляция исходного файла "Security.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(20,6): error C2365: Habit::Negativequalities: переопределение; предыдущим определением было "данные-член"
+  (компиляция исходного файла "Security.cpp")
+  C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(10,6):
+   см. объявление "Habit::Negativequalities"
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(21,3): error C2059: синтаксическая ошибка: return
+  (компиляция исходного файла "Security.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(21,27): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "Security.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(23,2): error C2628: недопустимый "Habit" с последующим "void" (возможно, отсутствует ";")
+  (компиляция исходного файла "Security.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(24,3): error C2065: Name: необъявленный идентификатор
+  (компиляция исходного файла "Security.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(27,3): error C2065: Positivequalities: необъявленный идентификатор
+  (компиляция исходного файла "Security.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(30,3): error C2065: Negativequalities: необъявленный идентификатор
+  (компиляция исходного файла "Security.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(32,1): error C2059: синтаксическая ошибка: }
+  (компиляция исходного файла "Security.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(32,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  (компиляция исходного файла "Security.cpp")
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(4,11): error C2511: Security::Security(SDL_Renderer *): перегруженная функция-член не найдена в "Security"
+  C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(5,7):
+   см. объявление "Security"
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(7,23): error C2065: CELL_SIZE: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(7,34): error C2065: CELL_SIZE: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(10,1): error C2550: Security::{ctor}: список инициализации конструктора должен использоваться только в месте определения конструктора
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(11,5): error C3861: loadTexture: идентификатор не найден
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(14,12): error C2600: Security::~Security: нельзя определить специальную функцию-член, созданную компилятором (сначала необходимо объявить ее в классе)
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(15,24): error C2065: characterTexture: необъявленный идентификатор
+  C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(14,12):
+  Сообщение диагностики возникло в созданной компилятором функции "Security::~Security(void)"
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(20,9): error C2065: playerRect: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(20,25): error C2065: speed: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(23,9): error C2065: playerRect: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(23,25): error C2065: speed: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(26,9): error C2065: playerRect: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(26,25): error C2065: speed: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(29,9): error C2065: playerRect: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(29,25): error C2065: speed: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(34,5): error C2065: health: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(38,12): error C2065: health: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(44,16): error C2511: void Security::Render(void): перегруженная функция-член не найдена в "Security"
+  C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(5,7):
+   см. объявление "Security"
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(45,20): error C2065: renderer: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(45,30): error C2065: characterTexture: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(45,58): error C2065: playerRect: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(48,16): error C2039: "loadTexture": не является членом "Security".
+  C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(5,7):
+   см. объявление "Security"
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(51,14): error C2039: "cerr": не является членом "std".
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(25,1):
+   см. объявление "std"
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(51,14): error C2065: cerr: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(51,74): error C2039: "endl": не является членом "std".
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(25,1):
+   см. объявление "std"
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(51,74): error C2065: endl: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(55,5): error C2065: characterTexture: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(55,53): error C2065: renderer: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(57,9): error C2065: characterTexture: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(58,14): error C2039: "cerr": не является членом "std".
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(25,1):
+   см. объявление "std"
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(58,14): error C2065: cerr: необъявленный идентификатор
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(58,75): error C2039: "endl": не является членом "std".
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(25,1):
+   см. объявление "std"
+  
+C:\Users\Ученик\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(58,75): error C2065: endl: необъявленный идентификатор
+  Student.cpp
+  Создание кода...
