@@ -1,6 +1,7 @@
 #include "Map.h"
 #include <SDL.h>
 
+Map::Map(SDL_Renderer* renderer) : renderer(renderer) {}
 void Map::render() const {
     for (int y = 0; y < MAZE_HEIGHT; y++) {
         for (int x = 0; x < MAZE_WIDTH; x++) {
@@ -30,9 +31,9 @@ bool Map::checkCollision(SDL_Rect rect) const {
         return true; 
     }
 
-    for (int y = gridY1; y <= gridY3; y++) {
-        for (int x = gridX1; x <= gridX3; x++) {
-            if (mazeData[y][x] == 1) { 
+    for (int y = gridY1; y <= gridY4; y++) {
+        for (int x = gridX1; x <= gridX4; x++) {
+            if (x >= 0 && x < MAZE_WIDTH && y >= 0 && y < MAZE_HEIGHT && mazeData[y][x] == 1) {
                 return true;
             }
         }

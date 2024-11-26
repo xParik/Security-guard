@@ -1,8 +1,7 @@
 #include "Security.h"
 #include "Game.h"
 
-Security::Security(SDL_Renderer* renderer) :
-    renderer(renderer),
+Security::Security(SDL_Renderer* renderer) : renderer(renderer),
     characterTexture(nullptr),
     playerRect{ 0, 0, CELL_SIZE, CELL_SIZE },
     speed(4),
