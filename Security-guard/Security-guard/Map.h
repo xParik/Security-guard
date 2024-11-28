@@ -1,12 +1,12 @@
-#pragma once
+#ifndef MAP_H
+#define MAP_H
 #include <SDL.h>
-
 class Map {
 private:
-    const SDL_Renderer* renderer; //  renderer  теперь константа 
+    SDL_Renderer* renderer; //  renderer  теперь не константа 
     const int MAP_HEIGHT = 10;
     const int MAP_WIDTH = 10;
-    int mapData[MAP_HEIGHT][MAP_WIDTH] = {
+    int const mapData[10][10] = {
         {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
         {1, 0, 0, 0, 1, 0, 0, 0, 0, 1},
         {1, 0, 1, 0, 1, 0, 1, 1, 0, 1},
@@ -19,12 +19,13 @@ private:
         {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
     };
     const int CELL_SIZE = 32;
-
-    // drawCell  теперь не-const
-    void drawCell(int x, int y, int type);
-
+    Map();
+    void renderer();
+    void const drawCell(int x, int y, int type);
 public:
-    Map(const SDL_Renderer* renderer); //  renderer  теперь константа 
-    bool checkCollision(SDL_Rect rect) const;
-    void render() const;
+    Map(SDL_Renderer* renderer);
+    void draw();
+    bool checkCollision(SDL_Rect playerRect);
+    ~Map();
 };
+#endif // MAP_H
