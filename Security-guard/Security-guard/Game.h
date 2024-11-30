@@ -11,7 +11,7 @@ private:
 	SDL_Window* window;
 	SDL_Renderer* renderer;
 	vector <Student*> students;
-	vector <Security*> secutityes;
+	vector <Security*> securitys;
 	vector <Habit*> habits;
 	vector <Item*> items;
 public:
@@ -30,8 +30,8 @@ public:
 	const vector <Student*>& GetStudents() const {
 		return students;
 	}
-	const vector <Security*>& GetSecurityes() const {
-		return secutityes;
+	const vector <Security*>& GetSecuritys() const {
+		return securitys;
 	}
 	const vector <Habit*>& GetHabits() const {
 		return habits;

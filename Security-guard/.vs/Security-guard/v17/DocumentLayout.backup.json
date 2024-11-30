@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Security.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Security.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security-guard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Security-guard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Habit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Habit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.cpp",
+              "RelativeDocumentMoniker": "Security-guard\\Game.cpp",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.cpp",
+              "RelativeToolTip": "Security-guard\\Game.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T16:21:59.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Security.cpp",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.cpp",
+              "RelativeDocumentMoniker": "Security-guard\\Security.cpp",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.cpp",
+              "RelativeToolTip": "Security-guard\\Security.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T16:21:59.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Item.h",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h",
+              "RelativeDocumentMoniker": "Security-guard\\Item.h",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h",
+              "RelativeToolTip": "Security-guard\\Item.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-26T16:21:59.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.h",
+              "RelativeDocumentMoniker": "Security-guard\\Game.h",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.h",
+              "RelativeToolTip": "Security-guard\\Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-26T16:21:59.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Security.h",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.h",
+              "RelativeDocumentMoniker": "Security-guard\\Security.h",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.h",
+              "RelativeToolTip": "Security-guard\\Security.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-26T16:21:59.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Habit.h",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Habit.h",
+              "RelativeDocumentMoniker": "Security-guard\\Habit.h",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Habit.h",
+              "RelativeToolTip": "Security-guard\\Habit.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-26T16:21:59.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.h",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.h",
+              "RelativeDocumentMoniker": "Security-guard\\Student.h",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.h",
+              "RelativeToolTip": "Security-guard\\Student.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-26T16:21:59.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Map.h",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.h",
+              "RelativeDocumentMoniker": "Security-guard\\Map.h",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.h",
+              "RelativeToolTip": "Security-guard\\Map.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-26T16:21:59.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Security-guard.cpp",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security-guard.cpp",
+              "RelativeDocumentMoniker": "Security-guard\\Security-guard.cpp",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security-guard.cpp",
+              "RelativeToolTip": "Security-guard\\Security-guard.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T16:21:59.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Map.cpp",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.cpp",
+              "RelativeDocumentMoniker": "Security-guard\\Map.cpp",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.cpp",
+              "RelativeToolTip": "Security-guard\\Map.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T16:21:59.857Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

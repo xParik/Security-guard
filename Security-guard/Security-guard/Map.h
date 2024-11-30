@@ -8,6 +8,7 @@ private:
     SDL_Renderer* renderer;
     const int MAZE_HEIGHT = 10;
     const int MAZE_WIDTH = 10;
+    const int CELL_SIZE = 32;
     int mazeData[MAZE_HEIGHT][MAZE_WIDTH] = {
         {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
         {1, 0, 0, 0, 1, 0, 0, 0, 0, 1},
