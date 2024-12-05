@@ -11,13 +11,15 @@ private:
     string* prohibitedEffects;
     int numAllowedEffects;
     int numProhibitedEffects;
+    bool isTaken;
 
 public:
     Item(const string& name, const string& description,
         const string* allowedEffects, int numAllowedEffects,
-        const string* prohibitedEffects, int numProhibitedEffects) :
+        const string* prohibitedEffects, int numProhibitedEffects,
+        bool isTaken) :
         name(name), description(description),
-        numAllowedEffects(numAllowedEffects), numProhibitedEffects(numProhibitedEffects) {
+        numAllowedEffects(numAllowedEffects), numProhibitedEffects(numProhibitedEffects),isTaken(isTaken) {
         this->allowedEffects = new string[numAllowedEffects];
         this->prohibitedEffects = new string[numProhibitedEffects];
 
@@ -33,6 +35,11 @@ public:
         delete[] allowedEffects;
         delete[] prohibitedEffects;
     }
+
+    Item& operator=(const Item& other);
+
+    bool takeItem();
+    bool leaveItem();
 
     string getName() const { return name; }
     string getDescription() const { return description; }
