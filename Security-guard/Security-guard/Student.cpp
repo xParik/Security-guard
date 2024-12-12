@@ -72,14 +72,14 @@ bool Student::loadTexture(const std::string& filename)
 {
     SDL_Surface* surface = SDL_LoadBMP(filename.c_str());
     if (surface == nullptr) {
-        std::cerr << "Error loading texture: " << SDL_GetError() << endl;
+        cerr << "Error loading texture: " << SDL_GetError() << endl;
         return false;  
     }
 
     characterTexture = SDL_CreateTextureFromSurface(renderer, surface);
     SDL_FreeSurface(surface);
     if (characterTexture == nullptr) {
-        std::cerr << "Error creating texture: " << SDL_GetError() << endl;
+        cerr << "Error creating texture: " << SDL_GetError() << endl;
         return false; 
     }
 
