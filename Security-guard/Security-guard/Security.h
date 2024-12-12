@@ -20,8 +20,7 @@ private:
     SDL_Renderer* renderer;
 public:
     Security(const std::string& name, int habit, int endurance, int age, int health, int startX, int startY, Map* m) :
-        Name(name), Age(age), Habit(habit), Endurance(endurance), health(health), Move(true), map(m) {
-        // Инициализируем playerRect 
+        Name(name), Age(age), Habit(habit), Endurance(endurance), health(health), Move(true), map(m) { 
         playerRect.x = startX;
         playerRect.y = startY;
         playerRect.w = CELL_SIZE;

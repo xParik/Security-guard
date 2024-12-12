@@ -3,7 +3,7 @@
 #include <SDL.h>
 class Map {
 private:
-    SDL_Renderer* renderer; //  renderer  теперь не константа 
+    SDL_Renderer* renderer; 
     const int MAP_HEIGHT = 10;
     const int MAP_WIDTH = 10;
     int const mapData[10][10] = {
@@ -28,4 +28,4 @@ public:
     bool checkCollision(SDL_Rect playerRect);
     ~Map();
 };
-#endif // MAP_H
+#endif
