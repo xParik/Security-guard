@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Security.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:2:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:2:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:1:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:1:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security-guard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Security-guard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Security.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -54,23 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Item.h",
-              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h",
-              "RelativeDocumentMoniker": "Security-guard\\Item.h",
-              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h",
-              "RelativeToolTip": "Security-guard\\Item.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-26T16:21:59.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Map.cpp",
               "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.cpp",
               "RelativeDocumentMoniker": "Security-guard\\Map.cpp",
@@ -78,8 +66,7 @@
               "RelativeToolTip": "Security-guard\\Map.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T16:21:59.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:21:59.857Z"
             },
             {
               "$type": "Document",
@@ -95,25 +82,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Security.cpp",
               "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.cpp",
               "RelativeDocumentMoniker": "Security-guard\\Security.cpp",
               "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.cpp",
               "RelativeToolTip": "Security-guard\\Security.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAPAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-26T16:21:59.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Item.cpp",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.cpp",
+              "RelativeDocumentMoniker": "Security-guard\\Item.cpp",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.cpp",
+              "RelativeToolTip": "Security-guard\\Item.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T16:47:26.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Item.h",
               "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h",
               "RelativeDocumentMoniker": "Security-guard\\Item.h",
-              "ToolTip": "C:\\Users\\\u0423\u0447\u0435\u043D\u0438\u043A\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h*",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\\u0423\u0447\u0435\u043D\u0438\u043A\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h",
+              "RelativeToolTip": "Security-guard\\Item.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-26T16:21:59.904Z"
             },
@@ -167,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Map.h",
               "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.h",
               "RelativeDocumentMoniker": "Security-guard\\Map.h",
@@ -175,12 +175,11 @@
               "RelativeToolTip": "Security-guard\\Map.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-26T16:21:59.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:21:59.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Security-guard.cpp",
               "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security-guard.cpp",
               "RelativeDocumentMoniker": "Security-guard\\Security-guard.cpp",
