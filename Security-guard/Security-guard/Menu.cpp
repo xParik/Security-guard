@@ -1,7 +1,7 @@
 #include "Menu.h"
 #include <SDL_ttf.h>
 #include <iostream>
-
+using namespace std;
 Menu::Menu(SDL_Renderer* renderer) :
     renderer(renderer),
     menuTexture(nullptr),
@@ -9,7 +9,7 @@ Menu::Menu(SDL_Renderer* renderer) :
 {
     // Загружаем шрифт
     if (TTF_Init() == -1) {
-        std::cerr << "TTF_Init Error: " << TTF_GetError() << std::endl;
+        cerr << "TTF_Init Error: " << TTF_GetError() << endl;
         return;
     }
 }
@@ -19,26 +19,24 @@ Menu::~Menu() {
     TTF_Quit();
 }
 
-void Menu::AddMenuItem(const std::string& text, int x, int y) {
+void Menu::AddMenuItem(const string& text, int x, int y) {
     itemTexts.push_back(text);
     SDL_Rect rect = { x, y, 0, 0 };
     itemRects.push_back(rect);
 }
 
 void Menu::Draw() {
-    // Отрисовываем текстуру меню, если она есть
     if (menuTexture != nullptr) {
         SDL_RenderCopy(renderer, menuTexture, nullptr, nullptr);
     }
 
-    // Отрисовываем пункты меню
     for (size_t i = 0; i < itemTexts.size(); ++i) {
-        SDL_Surface* textSurface = createTextSurface(itemTexts[i], { 255, 255, 255 }); // Белый цвет
+        SDL_Surface* textSurface = createTextSurface(itemTexts[i], { 255, 255, 255 }); 
         SDL_Texture* textTexture = SDL_CreateTextureFromSurface(renderer, textSurface);
         SDL_FreeSurface(textSurface);
 
         if (textTexture == nullptr) {
-            std::cerr << "Error creating text texture: " << SDL_GetError() << std::endl;
+            cerr << "Error creating text texture: " << SDL_GetError() << endl;
         }
         else {
             int textWidth, textHeight;
@@ -53,7 +51,6 @@ void Menu::Draw() {
 
 void Menu::HandleInput(const SDL_Event& event) {
     if (event.type == SDL_MOUSEMOTION) {
-        // Обновляем selectedItemIndex, если курсор мыши над пунктом меню
         for (size_t i = 0; i < itemRects.size(); ++i) {
             if (SDL_PointInRect(&event.motion.point, &itemRects[i])) {
                 selectedItemIndex = i;
@@ -65,10 +62,8 @@ void Menu::HandleInput(const SDL_Event& event) {
         }
     }
     else if (event.type == SDL_MOUSEBUTTONDOWN) {
-        // Обрабатываем щелчок мыши
         if (selectedItemIndex != -1) {
-            // Выполняем действие, связанное с выбранным пунктом меню
-            std::cout << "Выбран пункт: " << itemTexts[selectedItemIndex] << std::endl;
+            cout << "Выбран пункт: " << itemTexts[selectedItemIndex] << endl;
         }
     }
 }
@@ -77,25 +72,25 @@ bool Menu::IsMenuItemSelected(int index) {
     return selectedItemIndex == index;
 }
 
-bool Menu::loadTexture(const std::string& filename) {
+bool Menu::loadTexture(const string& filename) {
     SDL_Surface* surface = SDL_LoadBMP(filename.c_str());
     if (surface == nullptr) {
-        std::cout << "Error loading texture: " << SDL_GetError() << endl;
+        cout << "Error loading texture: " << SDL_GetError() << endl;
         return false;
     }
     menuTexture = SDL_CreateTextureFromSurface(renderer, surface);
     SDL_FreeSurface(surface);
     if (menuTexture == nullptr) {
-        std::cerr << "Error creating texture: " << SDL_GetError() << endl;
+        cerr << "Error creating texture: " << SDL_GetError() << endl;
         return false;
     }
     return true;
 }
 
-SDL_Surface* Menu::createTextSurface(const std::string& text, SDL_Color color) {
-    TTF_Font* font = TTF_OpenFont("arial.ttf", 24); // Замените "arial.ttf" на путь к вашему шрифту
+SDL_Surface* Menu::createTextSurface(const string& text, SDL_Color color) {
+    TTF_Font* font = TTF_OpenFont("arial.ttf", 24); //шрифт
     if (font == nullptr) {
-        std::cerr << "Error loading font: " << TTF_GetError() << std::endl;
+        cerr << "Error loading font: " << TTF_GetError() << endl;
         return nullptr;
     }
 
@@ -103,7 +98,7 @@ SDL_Surface* Menu::createTextSurface(const std::string& text, SDL_Color color) {
     TTF_CloseFont(font);
 
     if (surface == nullptr) {
-        std::cerr << "Error rendering text: " << TTF_GetError() << std::endl;
+        cerr << "Error rendering text: " << TTF_GetError() << endl;
         return nullptr;
     }
 
