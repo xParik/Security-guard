@@ -2,6 +2,9 @@
 #include <SDL.h>
 #include <string>
 #include "Map.h"
+#include "AnimationSecurity.h"
+#include "Item.h"
+#include "Habit.h"
 #include <iostream>
 class Security
 {

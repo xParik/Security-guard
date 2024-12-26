@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AnimationSecurity.cpp" />
+    <ClCompile Include="AnimationStudent.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Habit.cpp" />
     <ClCompile Include="Item.cpp" />
@@ -140,6 +142,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AnimationSecurity.h" />
+    <ClInclude Include="AnimationStudent.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Habit.h" />
     <ClInclude Include="Item.h" />

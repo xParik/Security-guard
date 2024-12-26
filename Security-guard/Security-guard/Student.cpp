@@ -1,4 +1,5 @@
 #include "Student.h"
+#include "AnimationStudent.h"
 #include "Map.h"
 #include "Item.h"
 #include <iostream>
