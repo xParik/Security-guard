@@ -1,56 +1,42 @@
 #pragma once
 #include <SDL.h>
 #include <string>
-using namespace std;
+
+class Map; // Предварительное объявление класса Map
+
 class Student {
 private:
-    string name;
+    std::string name;
     int health;
     int speed;
     SDL_Rect playerRect;
     SDL_Texture* characterTexture;
     SDL_Renderer* renderer;
     Map* map;
+    std::string item; // Новый член для хранения предмета
 
     const int CELL_SIZE = 32;
 
 public:
-    // Конструктор 
-    Student(const string& name, int health, int startX, int startY, SDL_Renderer* renderer, Map* map);
+    Student(const std::string& name, int health, int startX, int startY, SDL_Renderer* renderer, Map* map);
+    Student(SDL_Renderer* renderer, Map* map);
+    ~Student();
 
     void MoveTo(const Uint8* keystate);
     void TakeDamage(int damage);
-    bool isAlive();
+    bool isAlive() const;
     void Update();
     void Render();
-    bool  onDeath();
- 
-    string GetName() const { return name; }
+    bool onDeath() const;
+
+    std::string GetName() const { return name; }
     int GetHealth() const { return health; }
-
-    Student(SDL_Renderer* renderer, Map* map) :
-        renderer(renderer),
-        map(map),
-        characterTexture(nullptr),
-        playerRect{ 0, 0, CELL_SIZE, CELL_SIZE },
-        speed(4),
-        health(100)
-    {
-        loadTexture("Student.bmp");
+    std::string GetItem() const { return item; } // Метод для получения предмета
+    SDL_Rect GetRect() const {
+        return playerRect;
     }
-
-    bool loadTexture(const string& filename) {
-        SDL_Surface* surface = SDL_LoadBMP(filename.c_str());
-        if (surface == nullptr) {
-            std::cout << "Error loading texture: " << SDL_GetError() << endl;
-            return;
-        }
-        characterTexture = SDL_CreateTextureFromSurface(renderer, surface);
-        SDL_FreeSurface(surface);
-        if (characterTexture == nullptr) {
-            std::cerr << "Error creating texture: " << SDL_GetError() << endl;
-            return;
-        }
+    void Render() {
     }
-
+private:
+    bool loadTexture(const std::string& filename);
 };

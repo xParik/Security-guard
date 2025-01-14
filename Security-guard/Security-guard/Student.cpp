@@ -1,88 +1,74 @@
+#include "Map.h" 
 #include "Student.h"
-#include "AnimationStudent.h"
-#include "Map.h"
-#include "Item.h"
 #include <iostream>
-#include "SDL.h"
-using namespace std;
-Student::Student(SDL_Renderer* renderer, Map* map)
-    : renderer(renderer),
-    map(map),
-    characterTexture(nullptr),
-    playerRect{ 0, 0, CELL_SIZE, CELL_SIZE },
-    speed(4),
-    health(100)
-{
-    loadTexture("Student.bmp");
+#include <cstdlib>
+#include <ctime>
+#include <SDL_image.h>
+
+Student::Student(const std::string& name, int health, int startX, int startY, SDL_Renderer* renderer, Map* map)
+    : name(name), health(health), renderer(renderer), map(map), characterTexture(nullptr), speed(4) {
+    playerRect = { startX, startY, CELL_SIZE, CELL_SIZE };
+
+    if (!loadTexture("Student.bmp")) {
+        std::cerr << "Error loading texture for Student!" << std::endl;
+    }
+    std::string items[] = { "Dudka", "Knife", "Gun", "Snus" };
+    item = items[rand() % (sizeof(items) / sizeof(items[0]))];
 }
 
-void Student::MoveTo(const Uint8* keystate)
-{
-    SDL_Rect oldRect = playerRect;
+Student::Student(SDL_Renderer* renderer, Map* map)
+    : renderer(renderer), map(map), characterTexture(nullptr), playerRect{ 0, 0, CELL_SIZE, CELL_SIZE }, speed(4), health(100) {
+    if (!loadTexture("Student.bmp")) {
+        std::cerr << "Error loading texture for Student!" << std::endl;
+    }
 
-    if (keystate[SDL_SCANCODE_W]) {
+    std::string items[] = { "Dudka", "Knife", "Gun", "Snus" };
+    item = items[rand() % (sizeof(items) / sizeof(items[0]))];
+}
+
+Student::~Student() {
+    if (characterTexture) {
+        SDL_DestroyTexture(characterTexture);
+    }
+}
+
+void Student::MoveTo(const Uint8* keystate) {
+    if (keystate[SDL_SCANCODE_UP]) {
         playerRect.y -= speed;
     }
-    if (keystate[SDL_SCANCODE_S]) {
+    if (keystate[SDL_SCANCODE_DOWN]) {
         playerRect.y += speed;
     }
-    if (keystate[SDL_SCANCODE_A]) {
+    if (keystate[SDL_SCANCODE_LEFT]) {
         playerRect.x -= speed;
     }
-    if (keystate[SDL_SCANCODE_D]) {
+    if (keystate[SDL_SCANCODE_RIGHT]) {
         playerRect.x += speed;
     }
 
-    if (map->checkCollision(playerRect)) {
-        playerRect = oldRect;
+    // Проверка на границы карты
+    if (playerRect.x < 0) playerRect.x = 0;
+    if (playerRect.x + playerRect.w > map->getWidth()) playerRect.x = map->getWidth() - playerRect.w;
+    if (playerRect.y < 0) playerRect.y = 0;
+    if (playerRect.y + playerRect.h > map->getHeight()) playerRect.y = map->getHeight() - playerRect.h;
+}
+
+void Student::Update() {
+    // Здесь можно добавить логику обновления состояния студента (например, проверки на здоровье)
+}
+
+void Student::Render() {
+    if (characterTexture) {
+        SDL_RenderCopy(renderer, characterTexture, nullptr, &playerRect);
     }
 }
 
-void Student::TakeDamage(int damage)
-{
-    health -= damage;
-}
-bool  Student::onDeath() {
-    return health < 0;
-}
-bool Student::isAlive()
-{
-    return health > 0;
-}
+// Метод для загрузки текстуры
+bool Student::loadTexture(const std::string& filename) {
+    SDL_Surface* tempSurface = IMG_Load(filename.c_str());
+    if (!tempSurface) return false;
 
-void Student::Update()
-{
-    // Получаем состояние клавиш
-    const Uint8* keystate = SDL_GetKeyboardState(nullptr);
-
-    // Перемещаем персонажа
-    MoveTo(keystate);
-
-    // Проверяем, жив ли персонаж
-    if (!isAlive()) {
-        onDeath(); // Вызываем onDeath(), если персонаж умер
-    }
-}
-
-void Student::Render()
-{
-    SDL_RenderCopy(renderer, characterTexture, nullptr, &playerRect);
-}
-
-bool Student::loadTexture(const std::string& filename)
-{
-    SDL_Surface* surface = SDL_LoadBMP(filename.c_str());
-    if (surface == nullptr) {
-        cerr << "Error loading texture: " << SDL_GetError() << endl;
-        return false;  
-    }
-
-    characterTexture = SDL_CreateTextureFromSurface(renderer, surface);
-    SDL_FreeSurface(surface);
-    if (characterTexture == nullptr) {
-        cerr << "Error creating texture: " << SDL_GetError() << endl;
-        return false; 
-    }
-
-    return true;
+    characterTexture = SDL_CreateTextureFromSurface(renderer, tempSurface);
+    SDL_FreeSurface(tempSurface);
+    return characterTexture != nullptr;
 }
