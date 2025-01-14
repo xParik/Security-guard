@@ -1,5 +1,6 @@
 #pragma once
 #include "Item.h"
+#include "Map.h"
 #include "Security.h"
 #include "Habit.h"
 #include "Student.h"
@@ -23,6 +24,7 @@ public:
 	void Update();
 	void Render();
 	void HandleEvents();
+	void run();
 	SDL_Window* GetWindow() const {
 		return window;
 	}

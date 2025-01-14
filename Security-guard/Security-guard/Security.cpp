@@ -1,27 +1,34 @@
 #include "Security.h"
-#include "Game.h" 
 #include "Map.h"
-#include <SDL.h> 
+#include <SDL.h>
 #include <iostream>
-using namespace std;
+#include <algorithm>
 
-Security::Security(SDL_Renderer* renderer, Map* map)
-    : renderer(renderer),
-    map(map),
-    characterTexture(nullptr),
-    playerRect{ 0, 0, CELL_SIZE, CELL_SIZE },
-    speed(4),
-    health(100)
-{
-    loadTexture("Security.bmp");
+Security::Security(const std::string& name, int habit, int endurance, int age, int health, int startX, int startY, Map* m)
+    : name(name), age(age), habit(habit), endurance(endurance), health(health), speed(4), renderer(nullptr), characterTexture(nullptr), map(m) {
+    playerRect = { startX, startY, CELL_SIZE, CELL_SIZE };
+
+    if (!loadTexture("Security.bmp")) {
+        std::cerr << "Error loading texture for Security!" << std::endl;
+    }
+}
+
+Security::Security(SDL_Renderer* renderer, Map* map, int startX, int startY)
+    : renderer(renderer), map(map), characterTexture(nullptr), speed(4), health(100) {
+    playerRect = { startX, startY, CELL_SIZE, CELL_SIZE };
+
+    if (!loadTexture("Security.bmp")) {
+        std::cerr << "Error loading texture for Security!" << std::endl;
+    }
 }
 
 Security::~Security() {
-    SDL_DestroyTexture(characterTexture);
+    if (characterTexture) {
+        SDL_DestroyTexture(characterTexture);
+    }
 }
 
 void Security::MoveTo(const Uint8* keystate) {
-    // Сохраняем старую позицию
     SDL_Rect oldRect = playerRect;
 
     if (keystate[SDL_SCANCODE_W]) {
@@ -37,53 +44,60 @@ void Security::MoveTo(const Uint8* keystate) {
         playerRect.x += speed;
     }
 
-    // Проверяем столкновение после перемещения
+    playerRect.x = std::max(0, playerRect.x);
+    playerRect.y = std::max(0, playerRect.y);
+    playerRect.x = std::min(static_cast<int>(playerRect.x), static_cast<int>(map->getWidth() - playerRect.w));
+    playerRect.y = std::min(static_cast<int>(playerRect.y), static_cast<int>(map->getHeight() - playerRect.h));
     if (map->checkCollision(playerRect)) {
-        // Если столкновение, возвращаемся на старую позицию
         playerRect = oldRect;
     }
 }
 
 void Security::TakeDamage(int damage) {
     health -= damage;
+    if (health < 0) {
+        health = 0;
+    }
 }
 
-bool Security::isAlive() {
-    return health > 0; // Добавлен return 
+bool Security::isAlive() const {
+    return health > 0;
 }
 
 void Security::Update() {
-    // Получаем состояние клавиш
     const Uint8* keystate = SDL_GetKeyboardState(nullptr);
-
-    // Перемещаем персонажа
     MoveTo(keystate);
 
-    // Проверяем, жив ли персонаж
     if (!isAlive()) {
-        onDeath(); // Вызываем onDeath(), если персонаж умер
+        onDeath();
     }
 }
 
 void Security::Render() {
-    SDL_RenderCopy(renderer, characterTexture, nullptr, &playerRect);
+    if (characterTexture) {
+        SDL_RenderCopy(renderer, characterTexture, nullptr, &playerRect);
+    }
+    else {
+        std::cerr << "Character texture is not loaded!" << std::endl;
+    }
 }
 
-void const Security::onDeath() {
+void Security::onDeath() {
+    std::cout << "Security character has died." << std::endl;
 }
 
-bool const Security::loadTexture(const std::string& filename) {
+bool Security::loadTexture(const std::string& filename) {
     SDL_Surface* surface = SDL_LoadBMP(filename.c_str());
-    if (surface == nullptr) {
-        std::cerr << "Error loading texture: " << SDL_GetError() << endl;
-        return false; // Добавлен return 
+    if (!surface) {
+        std::cerr << "Error loading texture: " << SDL_GetError() << std::endl;
+        return false;
     }
 
     characterTexture = SDL_CreateTextureFromSurface(renderer, surface);
     SDL_FreeSurface(surface);
-    if (characterTexture == nullptr) {
-        std::cerr << "Error creating texture: " << SDL_GetError() << endl;
-        return false; // Добавлен return 
+    if (!characterTexture) {
+        std::cerr << "Error creating texture: " << SDL_GetError() << std::endl;
+        return false;
     }
 
     return true;

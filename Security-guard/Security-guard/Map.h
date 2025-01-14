@@ -1,31 +1,38 @@
 #ifndef MAP_H
 #define MAP_H
+
 #include <SDL.h>
+#include <vector>
+#include <string>
+
+class Student;
+
 class Map {
 private:
-    SDL_Renderer* renderer; 
-    const int MAP_HEIGHT = 10;
-    const int MAP_WIDTH = 10;
-    int const mapData[10][10] = {
-        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
-        {1, 0, 0, 0, 1, 0, 0, 0, 0, 1},
-        {1, 0, 1, 0, 1, 0, 1, 1, 0, 1},
-        {1, 0, 1, 0, 0, 0, 1, 0, 0, 1},
-        {1, 3, 1, 1, 1, 3, 1, 0, 1, 1},
-        {1, 0, 3, 0, 1, 0, 3, 0, 0, 1},
-        {1, 1, 1, 0, 1, 1, 1, 1, 0, 1},
-        {1, 0, 0, 0, 0, 3, 1, 1, 0, 1},
-        {1, 3, 1, 1, 1, 1, 1, 1, 2, 1},
-        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
-    };
-    const int CELL_SIZE = 32;
-    Map();
-    void renderer();
-    void const drawCell(int x, int y, int type);
+    static const int MAP_HEIGHT = 10;
+    static const int MAP_WIDTH = 20;
+    static const int CELL_SIZE = 64;
+
+    static int mapData[MAP_HEIGHT][MAP_WIDTH]; 
+    SDL_Renderer* renderer;
+    SDL_Rect guardRect;
+    std::vector<Student> students;
+    int width;
+    int height;
+
+    void drawCell(int x, int y, int type);
+    void renderGuard(SDL_Renderer* renderer);
+    void renderStudents(SDL_Renderer* renderer);
+
 public:
     Map(SDL_Renderer* renderer);
-    void draw();
-    bool checkCollision(SDL_Rect playerRect);
     ~Map();
+
+    void draw();
+    void spawnRandomStudents(int count);
+    bool checkCollision(const SDL_Rect& rect);
+    int getWidth() const { return MAP_WIDTH; }
+    int getHeight() const { return MAP_HEIGHT; }
 };
+
 #endif

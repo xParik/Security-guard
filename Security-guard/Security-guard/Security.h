@@ -1,73 +1,37 @@
 #pragma once
 #include <SDL.h>
 #include <string>
-#include "Map.h"
-#include "AnimationSecurity.h"
-#include "Item.h"
-#include "Habit.h"
 #include <iostream>
-class Security
-{
+#include <algorithm> 
+
+class Map; // Предварительное объявление класса Map
+
+const int CELL_SIZE = 32; // Определение CELL_SIZE
+
+class Security {
 private:
-    int Habit;
-    int Endurance;
-    std::string Name;
-    int Age;
-    bool Move;
-    Map* map;
+    SDL_Renderer* renderer;
+    SDL_Texture* characterTexture;
+    SDL_Rect playerRect;
     int speed;
     int health;
-    int onDeath;
-    SDL_Rect playerRect;
-    SDL_Texture* characterTexture;
-    SDL_Renderer* renderer;
+    std::string name;
+    int age;
+    int habit;     
+    int endurance; 
+    Map* map;     
+
+    bool loadTexture(const std::string& filename);
+
 public:
-    Security(const std::string& name, int habit, int endurance, int age, int health, int startX, int startY, Map* m) :
-        Name(name), Age(age), Habit(habit), Endurance(endurance), health(health), Move(true), map(m) { 
-        playerRect.x = startX;
-        playerRect.y = startY;
-        playerRect.w = CELL_SIZE;
-        playerRect.h = CELL_SIZE;
-    }
-
-    void SetName(const std::string& newName) {
-        Name = newName;
-    }
-    std::string GetName() const {
-        return Name;
-    }
-
-    Security(SDL_Renderer* renderer, Map* map) :
-        renderer(renderer),
-        map(map),
-        characterTexture(nullptr),
-        playerRect{ 0, 0, CELL_SIZE, CELL_SIZE },
-        speed(4),
-        health(100)
-    {
-        loadTexture("Security.bmp");
-    }
+    Security(const std::string& name, int habit, int endurance, int age, int health, int startX, int startY, Map* m);
+    Security(SDL_Renderer* renderer, Map* map, int startX, int startY);
+    ~Security();
 
     void MoveTo(const Uint8* keystate);
     void TakeDamage(int damage);
-    bool isAlive();
+    bool isAlive() const;
     void Update();
     void Render();
-    void const onDeath();
-    bool const loadTexture(const std::string& filename);
-    const int CELL_SIZE = 32;
-
-    bool const loadTexture(const std::string& filename) {
-        SDL_Surface* surface = SDL_LoadBMP(filename.c_str());
-        if (surface == nullptr) {
-            std::cout << "Error loading texture: " << SDL_GetError() << endl;
-            return;
-        }
-        characterTexture = SDL_CreateTextureFromSurface(renderer, surface);
-        SDL_FreeSurface(surface);
-        if (characterTexture == nullptr) {
-            std::cerr << "Error creating texture: " << SDL_GetError() << endl;
-            return;
-        }
-    }
+    void onDeath();
 };
