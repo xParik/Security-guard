@@ -11,12 +11,14 @@ private:
 	SDL_Window* window;
 	SDL_Renderer* renderer;
 	vector <Student*> students;
-	vector <Security*> secutityes;
+	vector <Security*> securityes;
 	vector <Habit*> habits;
 	vector <Item*> items;
+	Security* player;
 public:
 	Game();
 	~Game();
+	void run();
 	void Initialize();
 	void Update();
 	void Render();
@@ -31,7 +33,7 @@ public:
 		return students;
 	}
 	const vector <Security*>& GetSecurityes() const {
-		return secutityes;
+		return securityes;
 	}
 	const vector <Habit*>& GetHabits() const {
 		return habits;

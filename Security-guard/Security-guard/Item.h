@@ -55,4 +55,5 @@ public:
     int getNumProhibitedEffects() const {
         return numProhibitedEffects;
     }
+    void draw(SDL_Renderer* renderer) {}
 };
