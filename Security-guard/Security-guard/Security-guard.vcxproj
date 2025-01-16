@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Vcpkg.Nuget.1.5.0\build\Vcpkg.Nuget.props" Condition="Exists('..\packages\Vcpkg.Nuget.1.5.0\build\Vcpkg.Nuget.props')" />
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -177,5 +178,6 @@
     <Error Condition="!Exists('..\packages\sdl2_ttf.nuget.2.22.0\build\native\sdl2_ttf.nuget.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sdl2_ttf.nuget.2.22.0\build\native\sdl2_ttf.nuget.targets'))" />
     <Error Condition="!Exists('..\packages\sdl2_image.nuget.redist.2.8.2\build\native\sdl2_image.nuget.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sdl2_image.nuget.redist.2.8.2\build\native\sdl2_image.nuget.redist.targets'))" />
     <Error Condition="!Exists('..\packages\sdl2_image.nuget.2.8.2\build\native\sdl2_image.nuget.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sdl2_image.nuget.2.8.2\build\native\sdl2_image.nuget.targets'))" />
+    <Error Condition="!Exists('..\packages\Vcpkg.Nuget.1.5.0\build\Vcpkg.Nuget.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Vcpkg.Nuget.1.5.0\build\Vcpkg.Nuget.props'))" />
   </Target>
 </Project>
