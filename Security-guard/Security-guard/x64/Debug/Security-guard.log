@@ -1,296 +1,124 @@
 ﻿  Game.cpp
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.h(23,10): error C2365: Map::renderer: переопределение; предыдущим определением было "данные-член"
-  (компиляция исходного файла "Game.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.h(6,19):
-       см. объявление "Map::renderer"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\AnimationSecurity.h(9,72): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-  (компиляция исходного файла "Game.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(56,16): error C2365: Security::onDeath: переопределение; предыдущим определением было "данные-член"
-  (компиляция исходного файла "Game.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(20,9):
-       см. объявление "Security::onDeath"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(60,16): error C2535: const bool Security::loadTexture(const std::string &): функция-член уже определена или объявлена
-  (компиляция исходного файла "Game.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(57,16):
-       см. объявление "Security::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(64,13): error C2561: Security::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Game.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(60,16):
-       см. объявление "Security::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(70,13): error C2561: Security::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Game.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(60,16):
-       см. объявление "Security::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(46,13): error C2561: Student::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Game.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(42,10):
-       см. объявление "Student::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(52,13): error C2561: Student::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Game.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(42,10):
-       см. объявление "Student::loadTexture"
-  
   Habit.cpp
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(5,8): error C2084: функция "Habit::Habit(const std::string &,int,int)" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(12,2):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(38,10): error C2535: void Student::Render(void): функция-член уже определена или объявлена
+  (компиляция исходного файла "Game.cpp")
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(29,10):
+       см. объявление "Student::Render"
+  
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Game.h(30,7): error C2535: void Game::run(void): функция-член уже определена или объявлена
+  (компиляция исходного файла "Game.cpp")
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Game.h(24,7):
+       см. объявление "Game::run"
+  
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(5,8): error C2084: функция "Habit::Habit(const std::string &,int,int)" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(12,2):
       см. предыдущее определение "Habit::Habit"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(8,15): error C2084: функция "std::string Habit::getName(void) const" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(15,9):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(8,15): error C2084: функция "std::string Habit::getName(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(15,9):
       см. предыдущее определение "Habit::getName"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(12,12): error C2084: функция "int Habit::getPositivequalities(void) const" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(18,6):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(12,12): error C2084: функция "int Habit::getPositivequalities(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(18,6):
       см. предыдущее определение "Habit::getPositivequalities"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(16,12): error C2084: функция "int Habit::getNegativequalities(void) const" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(21,6):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(16,12): error C2084: функция "int Habit::getNegativequalities(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(21,6):
       см. предыдущее определение "Habit::getNegativequalities"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(20,13): error C2084: функция "void Habit::setName(const std::string &)" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(24,7):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(20,13): error C2084: функция "void Habit::setName(const std::string &)" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(24,7):
       см. предыдущее определение "Habit::setName"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(24,13): error C2084: функция "void Habit::setPositivequalities(int)" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(28,7):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(24,13): error C2084: функция "void Habit::setPositivequalities(int)" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(28,7):
       см. предыдущее определение "Habit::setPositivequalities"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(28,13): error C2084: функция "void Habit::setNegativequalities(int)" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(31,7):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(28,13): error C2084: функция "void Habit::setNegativequalities(int)" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(31,7):
       см. предыдущее определение "Habit::setNegativequalities"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(32,13): error C2084: функция "void Habit::displayHabitInfo(void) const" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(27,7):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.cpp(32,13): error C2084: функция "void Habit::displayHabitInfo(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Habit.h(27,7):
       см. предыдущее определение "Habit::displayHabitInfo"
   
   Item.cpp
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.h(23,10): error C2365: Map::renderer: переопределение; предыдущим определением было "данные-член"
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(38,10): error C2535: void Student::Render(void): функция-член уже определена или объявлена
   (компиляция исходного файла "Item.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.h(6,19):
-       см. объявление "Map::renderer"
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(29,10):
+       см. объявление "Student::Render"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(23,11): error C2063: Map::renderer: не является функцией
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(80,56): error C2102: для "&" требуется левостороннее значение
   (компиляция исходного файла "Item.cpp")
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(6,7): error C2084: функция "Item::Item(const std::string &,const std::string &,const std::string *,int,const std::string *,int)" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.h(16,5):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(7,7): error C2084: функция "Item::Item(const std::string &,const std::string &,const std::string *,int,const std::string *,int)" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(16,5):
       см. предыдущее определение "Item::Item"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(17,14): error C2084: функция "std::string Item::getName(void) const" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.h(35,12):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(18,14): error C2084: функция "std::string Item::getName(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(35,12):
       см. предыдущее определение "Item::getName"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(21,14): error C2084: функция "std::string Item::getDescription(void) const" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.h(39,12):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(22,14): error C2084: функция "std::string Item::getDescription(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(39,12):
       см. предыдущее определение "Item::getDescription"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(25,21): error C2084: функция "const std::string *Item::getAllowedEffects(void) const" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.h(43,19):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(26,21): error C2084: функция "const std::string *Item::getAllowedEffects(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(43,19):
       см. предыдущее определение "Item::getAllowedEffects"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(29,11): error C2084: функция "int Item::getNumAllowedEffects(void) const" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.h(47,9):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(30,11): error C2084: функция "int Item::getNumAllowedEffects(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(47,9):
       см. предыдущее определение "Item::getNumAllowedEffects"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(33,21): error C2084: функция "const std::string *Item::getProhibitedEffects(void) const" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.h(51,19):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(34,21): error C2084: функция "const std::string *Item::getProhibitedEffects(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(51,19):
       см. предыдущее определение "Item::getProhibitedEffects"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(37,11): error C2084: функция "int Item::getNumProhibitedEffects(void) const" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.h(55,9):
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(38,11): error C2084: функция "int Item::getNumProhibitedEffects(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(55,9):
       см. предыдущее определение "Item::getNumProhibitedEffects"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(41,12): error C2084: функция "void Item::draw(SDL_Renderer *)" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Item.h(58,10):
+  Map.cpp
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(42,12): error C2084: функция "void Item::draw(SDL_Renderer *)" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(58,10):
       см. предыдущее определение "Item::draw"
   
-  Map.cpp
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.h(23,10): error C2365: Map::renderer: переопределение; предыдущим определением было "данные-член"
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(38,10): error C2535: void Student::Render(void): функция-член уже определена или объявлена
   (компиляция исходного файла "Map.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.h(6,19):
-       см. объявление "Map::renderer"
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(29,10):
+       см. объявление "Student::Render"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(23,11): error C2063: Map::renderer: не является функцией
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(80,56): error C2102: для "&" требуется левостороннее значение
   Menu.cpp
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Menu.cpp(55,47): error C2039: "point": не является членом "SDL_MouseMotionEvent".
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\packages\sdl2.2.0.5\build\native\include\SDL_events.h(232,16):
-       см. объявление "SDL_MouseMotionEvent"
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Menu.cpp(63,17): error C2664: "SDL_bool SDL_PointInRect(const SDL_Point *,const SDL_Rect *)": невозможно преобразовать аргумент 1 из "const Sint32 *" в "const SDL_Point *"
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Menu.cpp(63,33):
+      Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\packages\sdl2.2.0.5\build\native\include\SDL_rect.h(73,27):
+       см. объявление "SDL_PointInRect"
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Menu.cpp(63,17):
+      при попытке сопоставить список аргументов "(const Sint32 *, _Ty *)"
+          with
+          [
+              _Ty=SDL_Rect
+          ]
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Menu.cpp(56,37): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Menu.cpp(64,37): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
   Security-guard.cpp
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.h(23,10): error C2365: Map::renderer: переопределение; предыдущим определением было "данные-член"
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(38,10): error C2535: void Student::Render(void): функция-член уже определена или объявлена
   (компиляция исходного файла "Security-guard.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.h(6,19):
-       см. объявление "Map::renderer"
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(29,10):
+       см. объявление "Student::Render"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\AnimationSecurity.h(9,72): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Game.h(30,7): error C2535: void Game::run(void): функция-член уже определена или объявлена
   (компиляция исходного файла "Security-guard.cpp")
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Game.h(24,7):
+       см. объявление "Game::run"
   
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(56,16): error C2365: Security::onDeath: переопределение; предыдущим определением было "данные-член"
-  (компиляция исходного файла "Security-guard.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(20,9):
-       см. объявление "Security::onDeath"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(60,16): error C2535: const bool Security::loadTexture(const std::string &): функция-член уже определена или объявлена
-  (компиляция исходного файла "Security-guard.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(57,16):
-       см. объявление "Security::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(64,13): error C2561: Security::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Security-guard.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(60,16):
-       см. объявление "Security::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(70,13): error C2561: Security::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Security-guard.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(60,16):
-       см. объявление "Security::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(46,13): error C2561: Student::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Security-guard.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(42,10):
-       см. объявление "Student::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(52,13): error C2561: Student::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Security-guard.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(42,10):
-       см. объявление "Student::loadTexture"
-  
-  Security.cpp
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.h(23,10): error C2365: Map::renderer: переопределение; предыдущим определением было "данные-член"
-  (компиляция исходного файла "Security.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.h(6,19):
-       см. объявление "Map::renderer"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\AnimationSecurity.h(9,72): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-  (компиляция исходного файла "Security.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(56,16): error C2365: Security::onDeath: переопределение; предыдущим определением было "данные-член"
-  (компиляция исходного файла "Security.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(20,9):
-       см. объявление "Security::onDeath"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(60,16): error C2535: const bool Security::loadTexture(const std::string &): функция-член уже определена или объявлена
-  (компиляция исходного файла "Security.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(57,16):
-       см. объявление "Security::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(64,13): error C2561: Security::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Security.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(60,16):
-       см. объявление "Security::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(70,13): error C2561: Security::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Security.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(60,16):
-       см. объявление "Security::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(46,13): error C2561: Student::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Security.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(42,10):
-       см. объявление "Student::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(52,13): error C2561: Student::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Security.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(42,10):
-       см. объявление "Student::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(8,11): error C2084: функция "Security::Security(SDL_Renderer *,Map *)" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.h(40,5):
-      см. предыдущее определение "Security::Security"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(19,12): error C2600: Security::~Security: нельзя определить специальную функцию-член, созданную компилятором (сначала необходимо объявить ее в классе)
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(64,9): error C2064: результатом вычисления фрагмента не является функция, принимающая 0 аргументов
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Security.cpp(72,22): error C2063: Security::onDeath: не является функцией
   Student.cpp
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(13,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(38,10): error C2535: void Student::Render(void): функция-член уже определена или объявлена
   (компиляция исходного файла "Student.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(13,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Student.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(13,13): error C2238: непредвиденные лексемы перед ";"
-  (компиляция исходного файла "Student.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(19,93): error C2061: синтаксическая ошибка: идентификатор "Map"
-  (компиляция исходного файла "Student.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(31,37): error C2061: синтаксическая ошибка: идентификатор "Map"
-  (компиляция исходного файла "Student.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(33,13): error C2065: map: необъявленный идентификатор
-  (компиляция исходного файла "Student.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(33,9): error C2614: Student: недопустимая инициализация члена: "map" не является базовым классом или членом
-  (компиляция исходного файла "Student.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(45,18): error C2039: "cout": не является членом "std".
-  (компиляция исходного файла "Student.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\string(23,1):
-       см. объявление "std"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(45,18): error C2065: cout: необъявленный идентификатор
-  (компиляция исходного файла "Student.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(45,73): error C2065: endl: необъявленный идентификатор
-  (компиляция исходного файла "Student.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(46,13): error C2561: Student::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Student.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(42,10):
-       см. объявление "Student::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(51,18): error C2039: "cerr": не является членом "std".
-  (компиляция исходного файла "Student.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\string(23,1):
-       см. объявление "std"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(51,18): error C2065: cerr: необъявленный идентификатор
-  (компиляция исходного файла "Student.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(51,74): error C2065: endl: необъявленный идентификатор
-  (компиляция исходного файла "Student.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(52,13): error C2561: Student::loadTexture: функция должна возвращать значение
-  (компиляция исходного файла "Student.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(42,10):
-       см. объявление "Student::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\AnimationStudent.h(10,72): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-  (компиляция исходного файла "Student.cpp")
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.h(23,10): error C2365: Map::renderer: переопределение; предыдущим определением было "данные-член"
-  (компиляция исходного файла "Student.cpp")
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Map.h(6,19):
-       см. объявление "Map::renderer"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.cpp(8,10): error C2511: Student::Student(SDL_Renderer *,Map *): перегруженная функция-член не найдена в "Student"
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(5,7):
-       см. объявление "Student"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.cpp(12,23): error C2597: недопустимая ссылка на нестатический член "Student::CELL_SIZE"
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(15,15):
-       см. объявление "Student::CELL_SIZE"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.cpp(12,34): error C2597: недопустимая ссылка на нестатический член "Student::CELL_SIZE"
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(15,15):
-       см. объявление "Student::CELL_SIZE"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.cpp(15,1): error C2550: Student::{ctor}: список инициализации конструктора должен использоваться только в месте определения конструктора
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.cpp(16,5): error C2352: "Student::loadTexture": для вызова нестатической функции-члена требуется объект
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(42,10):
-       см. объявление "Student::loadTexture"
-  
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.cpp(36,9): error C2065: map: необъявленный идентификатор
-C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.cpp(72,15): error C2084: функция "bool Student::loadTexture(const std::string &)" уже имеет текст реализации
-      C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Student.h(42,10):
-      см. предыдущее определение "Student::loadTexture"
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(29,10):
+       см. объявление "Student::Render"
   
   Создание кода...
