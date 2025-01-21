@@ -2,6 +2,7 @@
 #include <SDL.h>
 #include <iostream>
 #include "Map.cpp"
+#include "Security.h"
 
 Item::Item(const string& name,
     const string& description,

@@ -6,6 +6,7 @@
 #include "Student.h"
 #include <SDL.h>
 #include <vector>
+#include <SDL_image.h>
 class Game
 {
 private:
@@ -16,6 +17,7 @@ private:
 	vector <Habit*> habits;
 	vector <Item*> items;
 	Security* player;
+	SDL_Texture* texture;
 public:
 	Game();
 	~Game();
@@ -23,8 +25,11 @@ public:
 	void Initialize();
 	void Update();
 	void Render();
+	void HandleEvents(SDL_Event& e, bool& running);
 	void HandleEvents();
 	void run();
+	bool LoadTexture(const std::string& filePath);
+	void RenderTexture();
 	SDL_Window* GetWindow() const {
 		return window;
 	}
