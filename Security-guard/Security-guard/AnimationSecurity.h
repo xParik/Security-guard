@@ -8,7 +8,7 @@ public:
     Animation(SDL_Renderer* renderer, const std::string& path, int frameCount, double speed, bool loop)
         : renderer(renderer), path(path), frameCount(frameCount), speed(speed), loop(loop), currentFrame(0), frameTimer(0) {
         for (int i = 0; i < frameCount; ++i) {
-            string framePath = path + std::to_string(i) + ".bmp"; // Предполагаем, что кадры называются как path0.bmp, path1.bmp и т.д.
+            string framePath = path + std::to_string(i) + "Security.bmp";
             SDL_Texture* texture = loadTexture(framePath);
             if (texture) {
                 textures.push_back(texture);
