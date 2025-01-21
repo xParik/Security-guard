@@ -27,7 +27,6 @@ public:
 	void Render();
 	void HandleEvents(SDL_Event& e, bool& running);
 	void HandleEvents();
-	void run();
 	bool LoadTexture(const std::string& filePath);
 	void RenderTexture();
 	SDL_Window* GetWindow() const {

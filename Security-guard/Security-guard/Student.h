@@ -35,8 +35,6 @@ public:
     SDL_Rect GetRect() const {
         return playerRect;
     }
-    void Render() {
-    }
 private:
     bool loadTexture(const std::string& filename);
 };

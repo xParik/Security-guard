@@ -29,7 +29,7 @@ private:
     SDL_Texture* loadTexture(const string& path) {
         SDL_Surface* surface = SDL_LoadBMP(path.c_str());
         if (!surface) {
-            std::cerr << "Error loading BMP: " << SDL_GetError() << std::endl;
+            cout << "Error loading BMP: " << SDL_GetError() << endl;
             return nullptr;
         }
         SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, surface);

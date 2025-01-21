@@ -59,8 +59,10 @@ void Menu::Draw() {
 
 void Menu::HandleInput(const SDL_Event& event) {
     if (event.type == SDL_MOUSEMOTION) {
+        SDL_Point mousePoint = { event.motion.x, event.motion.y };
+
         for (size_t i = 0; i < itemRects.size(); ++i) {
-            if (SDL_PointInRect(&event.motion.x, &itemRects[i])) {
+            if (SDL_PointInRect(&mousePoint, &itemRects[i])) {
                 selectedItemIndex = i;
                 break;
             }
@@ -73,18 +75,17 @@ void Menu::HandleInput(const SDL_Event& event) {
         if (selectedItemIndex != -1) {
             cout << "Выбран пункт: " << itemTexts[selectedItemIndex] << endl;
 
-            // Обработать выбор пункта меню
             switch (selectedItemIndex) {
-            case 0: // Начать новую игру
+            case 0:
                 cout << "Начало новой игры..." << endl;
                 break;
-            case 1: // Продолжить игру
+            case 1:
                 cout << "Продолжение игры..." << endl;
                 break;
-            case 2: // Настройки
+            case 2:
                 cout << "Настройки..." << endl;
                 break;
-            case 3: // Выход
+            case 3:
                 cout << "Выход из игры..." << endl;
                 break;
             default:
