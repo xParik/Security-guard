@@ -1,7 +1,6 @@
 #include "Game.h"
 #include <vector>
 #include <iostream>
-#include <SDL_image.h>
 
 Game::Game() : window(nullptr), renderer(nullptr) {
     if (SDL_Init(SDL_INIT_VIDEO) < 0) {
@@ -14,6 +13,16 @@ Game::Game() : window(nullptr), renderer(nullptr) {
         std::cerr << "Ошибка создания окна: " << SDL_GetError() << std::endl;
         SDL_Quit();
         return;
+    }
+
+    bool running = true;
+    SDL_Event event;
+    while (running) {
+        while (SDL_PollEvent(&event)) {
+            if (event.type == SDL_QUIT) {
+                running = false;
+            }
+        }
     }
 
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
@@ -37,7 +46,7 @@ bool Game::LoadTexture(const std::string& filePath) {
     texture = SDL_CreateTextureFromSurface(renderer, tempSurface);
     SDL_FreeSurface(tempSurface);
     if (!texture) {
-        std::cerr << "Ошибка создания текстуры: " << SDL_GetError() << std::endl;
+        cerr << "Ошибка создания текстуры: " << SDL_GetError() << std::endl;
         return false;
     }
     return true;

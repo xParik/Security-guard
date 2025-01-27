@@ -6,14 +6,36 @@ using namespace std;
 class Animation {
 public:
     Animation(SDL_Renderer* renderer, const std::string& path, int frameCount, double speed, bool loop)
-        : renderer(renderer), path(path), frameCount(frameCount), speed(speed), loop(loop) {}
+        : renderer(renderer), path(path), frameCount(frameCount), speed(speed), loop(loop), currentFrame(0), frameTimer(0) {
+        for (int i = 0; i < frameCount; ++i) {
+            string framePath = path + std::to_string(i) + "Security.bmp";
+            SDL_Texture* texture = loadTexture(framePath);
+            if (texture) {
+                textures.push_back(texture);
+            }
+        }
+    }
 
 private:
     SDL_Renderer* renderer;
+    vector<SDL_Texture*> textures;
     string path;
     int frameCount;
     int speed;
     int loop;
+    int currentFrame;
+    int frameTimer;
+
+    SDL_Texture* loadTexture(const string& path) {
+        SDL_Surface* surface = SDL_LoadBMP(path.c_str());
+        if (!surface) {
+            cout << "Error loading BMP: " << SDL_GetError() << endl;
+            return nullptr;
+        }
+        SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, surface);
+        SDL_FreeSurface(surface);
+        return texture;
+    }
 };
 
 class AnimationSecurity {
