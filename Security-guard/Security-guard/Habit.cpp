@@ -2,9 +2,6 @@
 #include <iostream>
 #include <string>
 
-Habit::Habit (const string& name, int positivequalities, int negativequalities) :	
-	Name(name), Positivequalities(positivequalities), Negativequalities(negativequalities) {}
-
 string Habit::getName() const {
     return Name;
 }

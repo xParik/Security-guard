@@ -2,7 +2,6 @@
 #include "Item.h"
 #include "Map.h"
 #include "Security.h"
-#include "Habit.h"
 #include "Student.h"
 #include <SDL.h>
 #include <vector>
@@ -14,7 +13,6 @@ private:
 	SDL_Renderer* renderer;
 	vector <Student*> students;
 	vector <Security*> securityes;
-	vector <Habit*> habits;
 	vector <Item*> items;
 	Security* player;
 	SDL_Texture* texture;
@@ -27,7 +25,6 @@ public:
 	void Render();
 	void HandleEvents(SDL_Event& e, bool& running);
 	void HandleEvents();
-	void run();
 	bool LoadTexture(const std::string& filePath);
 	void RenderTexture();
 	SDL_Window* GetWindow() const {
@@ -42,15 +39,11 @@ public:
 	const vector <Security*>& GetSecurityes() const {
 		return securityes;
 	}
-	const vector <Habit*>& GetHabits() const {
-		return habits;
-	}
 	const vector <Item*>& GetItems() const {
 		return items;
 	}
 	void AddStudent(Student* student);
 	void AddSecurity(Security* security);
 	void AddItem(Item* item);
-	void AddHabit(Habit* habit);
 };
 
