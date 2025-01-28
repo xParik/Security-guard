@@ -2,7 +2,7 @@
   Item.cpp
   Map.cpp
   Menu.cpp
-C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Menu.cpp(65,37): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\Security-guard\Menu.cpp(65,37): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
   Security-guard.cpp
   Security.cpp
   Student.cpp
@@ -17,4 +17,4 @@ Map.obj : error LNK2005: "private: void __cdecl Map::renderStudents(struct SDL_R
 Map.obj : error LNK2005: "public: void __cdecl Map::spawnRandomStudents(int)" (?spawnRandomStudents@Map@@QEAAXH@Z) уже определен в Item.obj
 Map.obj : error LNK2005: "private: static int (* Map::mapData)[20]" (?mapData@Map@@0PAY0BE@HA) уже определен в Item.obj
 Menu.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: struct SDL_Surface * __cdecl Menu::createTextSurface(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color)" (?createTextSurface@Menu@@QEAAPEAUSDL_Surface@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@USDL_Color@@@Z) в функции "public: void __cdecl Menu::Draw(void)" (?Draw@Menu@@QEAAXXZ).
-C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\x64\Debug\Security-guard.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\x64\Debug\Security-guard.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
