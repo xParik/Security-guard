@@ -1,5 +1,4 @@
 #include "Map.h"
-#include <SDL.h>
 #include "Student.h"
 #include <cstdlib>
 #include <ctime>
@@ -76,9 +75,9 @@ void Map::renderStudents(SDL_Renderer* renderer) {
     }
 }
 
-bool Map::checkCollision(const SDL_Rect& playerRect) {
+bool Map::checkCollision(const SDL_Rect& rect) {
     for (const Student& student : students) {
-        if (SDL_HasIntersection(&playerRect, &student.GetRect())) {
+        if (SDL_HasIntersection(&rect, &student.GetRect())) {
             return true;
         }
     }

@@ -16,7 +16,6 @@ private:
     std::string item; // Новый член для хранения предмета
 
     const int CELL_SIZE = 32;
-    bool loadTexture(const std::string& filename);
 
 public:
     Student(const std::string& name, int health, int startX, int startY, SDL_Renderer* renderer, Map* map);
@@ -33,7 +32,11 @@ public:
     std::string GetName() const { return name; }
     int GetHealth() const { return health; }
     std::string GetItem() const { return item; } // Метод для получения предмета
-    const SDL_Rect& GetRect() const {
+    SDL_Rect GetRect() const {
         return playerRect;
     }
+    void Render() {
+    }
+private:
+    bool loadTexture(const std::string& filename);
 };

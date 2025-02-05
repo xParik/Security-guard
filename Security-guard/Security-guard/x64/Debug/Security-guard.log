@@ -1,20 +1,78 @@
 ﻿  Game.cpp
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Game.h(5,10): error C1083: Не удается открыть файл включение: Habit.h: No such file or directory,
+  (компиляция исходного файла "Game.cpp")
+  
   Item.cpp
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(38,10): error C2535: void Student::Render(void): функция-член уже определена или объявлена
+  (компиляция исходного файла "Item.cpp")
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(29,10):
+       см. объявление "Student::Render"
+  
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(80,56): error C2102: для "&" требуется левостороннее значение
+  (компиляция исходного файла "Item.cpp")
+  
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(7,7): error C2084: функция "Item::Item(const std::string &,const std::string &,const std::string *,int,const std::string *,int)" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(16,5):
+      см. предыдущее определение "Item::Item"
+  
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(18,14): error C2084: функция "std::string Item::getName(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(35,12):
+      см. предыдущее определение "Item::getName"
+  
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(22,14): error C2084: функция "std::string Item::getDescription(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(39,12):
+      см. предыдущее определение "Item::getDescription"
+  
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(26,21): error C2084: функция "const std::string *Item::getAllowedEffects(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(43,19):
+      см. предыдущее определение "Item::getAllowedEffects"
+  
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(30,11): error C2084: функция "int Item::getNumAllowedEffects(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(47,9):
+      см. предыдущее определение "Item::getNumAllowedEffects"
+  
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(34,21): error C2084: функция "const std::string *Item::getProhibitedEffects(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(51,19):
+      см. предыдущее определение "Item::getProhibitedEffects"
+  
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(38,11): error C2084: функция "int Item::getNumProhibitedEffects(void) const" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(55,9):
+      см. предыдущее определение "Item::getNumProhibitedEffects"
+  
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.cpp(42,12): error C2084: функция "void Item::draw(SDL_Renderer *)" уже имеет текст реализации
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Item.h(58,10):
+      см. предыдущее определение "Item::draw"
+  
   Map.cpp
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(38,10): error C2535: void Student::Render(void): функция-член уже определена или объявлена
+  (компиляция исходного файла "Map.cpp")
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(29,10):
+       см. объявление "Student::Render"
+  
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Map.cpp(80,56): error C2102: для "&" требуется левостороннее значение
   Menu.cpp
-C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Menu.cpp(65,37): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Menu.cpp(63,17): error C2664: "SDL_bool SDL_PointInRect(const SDL_Point *,const SDL_Rect *)": невозможно преобразовать аргумент 1 из "const Sint32 *" в "const SDL_Point *"
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Menu.cpp(63,33):
+      Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\packages\sdl2.2.0.5\build\native\include\SDL_rect.h(73,27):
+       см. объявление "SDL_PointInRect"
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Menu.cpp(63,17):
+      при попытке сопоставить список аргументов "(const Sint32 *, _Ty *)"
+          with
+          [
+              _Ty=SDL_Rect
+          ]
+  
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Menu.cpp(64,37): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
   Security-guard.cpp
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Game.h(5,10): error C1083: Не удается открыть файл включение: Habit.h: No such file or directory,
+  (компиляция исходного файла "Security-guard.cpp")
+  
   Security.cpp
   Student.cpp
+C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(38,10): error C2535: void Student::Render(void): функция-член уже определена или объявлена
+  (компиляция исходного файла "Student.cpp")
+      C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\Security-guard\Student.h(29,10):
+       см. объявление "Student::Render"
+  
   Создание кода...
-Map.obj : error LNK2005: "public: __cdecl Map::Map(struct SDL_Renderer *)" (??0Map@@QEAA@PEAUSDL_Renderer@@@Z) уже определен в Item.obj
-Map.obj : error LNK2005: "public: __cdecl Map::~Map(void)" (??1Map@@QEAA@XZ) уже определен в Item.obj
-Map.obj : error LNK2005: "public: bool __cdecl Map::checkCollision(struct SDL_Rect const &)" (?checkCollision@Map@@QEAA_NAEBUSDL_Rect@@@Z) уже определен в Item.obj
-Map.obj : error LNK2005: "public: void __cdecl Map::draw(void)" (?draw@Map@@QEAAXXZ) уже определен в Item.obj
-Map.obj : error LNK2005: "private: void __cdecl Map::drawCell(int,int,int)" (?drawCell@Map@@AEAAXHHH@Z) уже определен в Item.obj
-Map.obj : error LNK2005: "private: void __cdecl Map::renderGuard(struct SDL_Renderer *)" (?renderGuard@Map@@AEAAXPEAUSDL_Renderer@@@Z) уже определен в Item.obj
-Map.obj : error LNK2005: "private: void __cdecl Map::renderStudents(struct SDL_Renderer *)" (?renderStudents@Map@@AEAAXPEAUSDL_Renderer@@@Z) уже определен в Item.obj
-Map.obj : error LNK2005: "public: void __cdecl Map::spawnRandomStudents(int)" (?spawnRandomStudents@Map@@QEAAXH@Z) уже определен в Item.obj
-Map.obj : error LNK2005: "private: static int (* Map::mapData)[20]" (?mapData@Map@@0PAY0BE@HA) уже определен в Item.obj
-Menu.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: struct SDL_Surface * __cdecl Menu::createTextSurface(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color)" (?createTextSurface@Menu@@QEAAPEAUSDL_Surface@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@USDL_Color@@@Z) в функции "public: void __cdecl Menu::Draw(void)" (?Draw@Menu@@QEAAXXZ).
-C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\x64\Debug\Security-guard.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

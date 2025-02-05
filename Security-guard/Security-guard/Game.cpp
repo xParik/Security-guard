@@ -125,3 +125,6 @@ void Game::AddItem(Item* item)
 {
 }
 
+void Game::AddHabit(Habit* habit)
+{
+}

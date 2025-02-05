@@ -59,9 +59,8 @@ void Menu::Draw() {
 
 void Menu::HandleInput(const SDL_Event& event) {
     if (event.type == SDL_MOUSEMOTION) {
-        SDL_Point mousePoint = { event.motion.x, event.motion.y };
         for (size_t i = 0; i < itemRects.size(); ++i) {
-            if (SDL_PointInRect(&mousePoint, &itemRects[i])) {
+            if (SDL_PointInRect(&event.motion.x, &itemRects[i])) {
                 selectedItemIndex = i;
                 break;
             }
