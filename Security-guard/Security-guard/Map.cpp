@@ -77,6 +77,7 @@ void Map::renderStudents(SDL_Renderer* renderer) {
 
 bool Map::checkCollision(const SDL_Rect& rect) {
     for (const Student& student : students) {
+        const SDL_Rect& studentRect = student.GetRect();
         if (SDL_HasIntersection(&rect, &student.GetRect())) {
             return true;
         }

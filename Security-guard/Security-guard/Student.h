@@ -32,10 +32,8 @@ public:
     std::string GetName() const { return name; }
     int GetHealth() const { return health; }
     std::string GetItem() const { return item; } // Метод для получения предмета
-    SDL_Rect GetRect() const {
+    const SDL_Rect& GetRect() const {
         return playerRect;
-    }
-    void Render() {
     }
 private:
     bool loadTexture(const std::string& filename);
