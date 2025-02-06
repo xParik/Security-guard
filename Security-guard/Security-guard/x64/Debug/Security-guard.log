@@ -1,1 +1,11 @@
-﻿LINK : fatal error LNK1104: не удается открыть файл "C:\Users\slava\OneDrive\Документы\GitHub\Security-guard\Security-guard\packages\sdl2_image.nuget.2.8.2\build\native\..\..\\build\native\lib\x64\SDL2_image.lib"
+﻿Map.obj : error LNK2005: "public: __cdecl Map::Map(struct SDL_Renderer *)" (??0Map@@QEAA@PEAUSDL_Renderer@@@Z) уже определен в Item.obj
+Map.obj : error LNK2005: "public: __cdecl Map::~Map(void)" (??1Map@@QEAA@XZ) уже определен в Item.obj
+Map.obj : error LNK2005: "public: bool __cdecl Map::checkCollision(struct SDL_Rect const &)" (?checkCollision@Map@@QEAA_NAEBUSDL_Rect@@@Z) уже определен в Item.obj
+Map.obj : error LNK2005: "public: void __cdecl Map::draw(void)" (?draw@Map@@QEAAXXZ) уже определен в Item.obj
+Map.obj : error LNK2005: "private: void __cdecl Map::drawCell(int,int,int)" (?drawCell@Map@@AEAAXHHH@Z) уже определен в Item.obj
+Map.obj : error LNK2005: "private: void __cdecl Map::renderGuard(struct SDL_Renderer *)" (?renderGuard@Map@@AEAAXPEAUSDL_Renderer@@@Z) уже определен в Item.obj
+Map.obj : error LNK2005: "private: void __cdecl Map::renderStudents(struct SDL_Renderer *)" (?renderStudents@Map@@AEAAXPEAUSDL_Renderer@@@Z) уже определен в Item.obj
+Map.obj : error LNK2005: "public: void __cdecl Map::spawnRandomStudents(int)" (?spawnRandomStudents@Map@@QEAAXH@Z) уже определен в Item.obj
+Map.obj : error LNK2005: "private: static int (* Map::mapData)[20]" (?mapData@Map@@0PAY0BE@HA) уже определен в Item.obj
+Menu.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: struct SDL_Surface * __cdecl Menu::createTextSurface(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color)" (?createTextSurface@Menu@@QEAAPEAUSDL_Surface@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@USDL_Color@@@Z) в функции "public: void __cdecl Menu::Draw(void)" (?Draw@Menu@@QEAAXXZ).
+C:\Users\Intel\Documents\GitHub\Security-guard\Security-guard\x64\Debug\Security-guard.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

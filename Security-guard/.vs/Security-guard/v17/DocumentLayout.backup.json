@@ -1,57 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\",
+  "WorkspaceRootPath": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security-guard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security-guard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Security-guard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Security.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Security.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E8794679-A6BE-4B06-998B-EB7C3B8EF5DB}|Security-guard\\Security-guard.vcxproj|solutionrelative:Security-guard\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -68,51 +68,48 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Security-guard.cpp",
-              "DocumentMoniker": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security-guard.cpp",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security-guard.cpp",
               "RelativeDocumentMoniker": "Security-guard\\Security-guard.cpp",
-              "ToolTip": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security-guard.cpp",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security-guard.cpp",
               "RelativeToolTip": "Security-guard\\Security-guard.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-26T16:21:59.904Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.cpp",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.cpp",
               "RelativeDocumentMoniker": "Security-guard\\Game.cpp",
-              "ToolTip": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.cpp",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.cpp",
               "RelativeToolTip": "Security-guard\\Game.cpp",
               "ViewState": "AgIAAHIAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T16:21:59.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:21:59.904Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Game.h",
-              "DocumentMoniker": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.h",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.h",
               "RelativeDocumentMoniker": "Security-guard\\Game.h",
-              "ToolTip": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.h",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Game.h",
               "RelativeToolTip": "Security-guard\\Game.h",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-26T16:21:59.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:21:59.904Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Menu.cpp",
-              "DocumentMoniker": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Menu.cpp",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Menu.cpp",
               "RelativeDocumentMoniker": "Security-guard\\Menu.cpp",
-              "ToolTip": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Menu.cpp",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Menu.cpp",
               "RelativeToolTip": "Security-guard\\Menu.cpp",
-              "ViewState": "AgIAADQAAAAAAAAAAAAnwEAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-19T13:43:04.269Z",
               "EditorCaption": ""
@@ -121,118 +118,109 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Menu.h",
-              "DocumentMoniker": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Menu.h",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Menu.h",
               "RelativeDocumentMoniker": "Security-guard\\Menu.h",
-              "ToolTip": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Menu.h",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Menu.h",
               "RelativeToolTip": "Security-guard\\Menu.h",
               "ViewState": "AgIAAAIAAAAAAAAAAAAqwAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-14T15:40:41.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T15:40:41.307Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Item.cpp",
-              "DocumentMoniker": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.cpp",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.cpp",
               "RelativeDocumentMoniker": "Security-guard\\Item.cpp",
-              "ToolTip": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.cpp",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.cpp",
               "RelativeToolTip": "Security-guard\\Item.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T16:47:26.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T16:47:26.711Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Item.h",
-              "DocumentMoniker": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h",
               "RelativeDocumentMoniker": "Security-guard\\Item.h",
-              "ToolTip": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Item.h",
               "RelativeToolTip": "Security-guard\\Item.h",
               "ViewState": "AgIAADMAAAAAAAAAAAAAADoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-26T16:21:59.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:21:59.904Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Student.cpp",
-              "DocumentMoniker": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.cpp",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.cpp",
               "RelativeDocumentMoniker": "Security-guard\\Student.cpp",
-              "ToolTip": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.cpp",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.cpp",
               "RelativeToolTip": "Security-guard\\Student.cpp",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAD4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-14T15:40:06.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T15:40:06.549Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Student.h",
-              "DocumentMoniker": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.h",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.h",
               "RelativeDocumentMoniker": "Security-guard\\Student.h",
-              "ToolTip": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.h",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Student.h",
               "RelativeToolTip": "Security-guard\\Student.h",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-26T16:21:59.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:21:59.904Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Security.cpp",
-              "DocumentMoniker": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.cpp",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.cpp",
               "RelativeDocumentMoniker": "Security-guard\\Security.cpp",
-              "ToolTip": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.cpp",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.cpp",
               "RelativeToolTip": "Security-guard\\Security.cpp",
               "ViewState": "AgIAAE0AAAAAAAAAAAAqwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T16:21:59.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:21:59.904Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Security.h",
-              "DocumentMoniker": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.h",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.h",
               "RelativeDocumentMoniker": "Security-guard\\Security.h",
-              "ToolTip": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.h",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Security.h",
               "RelativeToolTip": "Security-guard\\Security.h",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwBMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-26T16:21:59.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:21:59.904Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Map.h",
-              "DocumentMoniker": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.h",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.h",
               "RelativeDocumentMoniker": "Security-guard\\Map.h",
-              "ToolTip": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.h",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.h",
               "RelativeToolTip": "Security-guard\\Map.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-26T16:21:59.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:21:59.904Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Map.cpp",
-              "DocumentMoniker": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.cpp",
+              "DocumentMoniker": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.cpp",
               "RelativeDocumentMoniker": "Security-guard\\Map.cpp",
-              "ToolTip": "C:\\Users\\slava\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.cpp",
+              "ToolTip": "C:\\Users\\Intel\\Documents\\GitHub\\Security-guard\\Security-guard\\Security-guard\\Map.cpp",
               "RelativeToolTip": "Security-guard\\Map.cpp",
               "ViewState": "AgIAAEIAAAAAAAAAAAAAAFMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-26T16:21:59.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:21:59.857Z"
             }
           ]
         }
